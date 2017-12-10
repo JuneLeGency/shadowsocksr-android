@@ -9,7 +9,7 @@
 [submodule "src/main/jni/libevent"]
 	path = src/main/jni/libevent
 	url = https://github.com/max2max/libevent.git
-	branch = shadowsocks-android
+	branch = max2max-patch-1
 [submodule "src/main/jni/redsocks"]
 	path = src/main/jni/redsocks
 	url = https://github.com/shadowsocks/redsocks.git
