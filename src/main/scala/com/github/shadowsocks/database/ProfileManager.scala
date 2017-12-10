@@ -287,7 +287,7 @@ class ProfileManager(dbHelper: DBHelper) {
   }
 
   def createDefault(): Profile = {
-    val profile = new Profile {
+    val profile0 = new Profile {
       name = "FreeSS"
       host = "104.140.14.17"
       remotePort = 53
@@ -297,6 +297,17 @@ class ProfileManager(dbHelper: DBHelper) {
       method = "rc4-md5"
       url_group = "FreeSS-github"
     }
-    createProfile(profile)
+    val profile1 = new Profile {
+      name = "FreeSS"
+      host = "198.96.88.121"
+      remotePort = 80
+      password = "freess"
+      protocol = "origin"
+      obfs = "plain"
+      method = "rc4-md5"
+      url_group = "FreeSS-github"
+    }
+    createProfile(profile0)
+    createProfile(profile1)
   }
 }
