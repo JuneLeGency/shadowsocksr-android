@@ -288,14 +288,14 @@ class ProfileManager(dbHelper: DBHelper) {
 
   def createDefault(): Profile = {
     val profile = new Profile {
-      name = "Android SSR Default"
-      host = "137.74.141.42"
-      remotePort = 80
-      password = "androidssr"
-      protocol = "auth_chain_a"
-      obfs = "http_simple"
-      method = "none"
-      url_group = "FreeSSR-public"
+      name = "FreeSS"
+      host = "104.140.14.17"
+      remotePort = 53
+      password = "freess"
+      protocol = "origin"
+      obfs = "plain"
+      method = "rc4-md5"
+      url_group = "FreeSS-github"
     }
     createProfile(profile)
   }
