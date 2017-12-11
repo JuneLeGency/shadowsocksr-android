@@ -4,6 +4,10 @@
 
 ###start of ad block###
 
+
+# myself 2017-12-11
+^.*ca\.bxwx3\.org$
+
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
 
