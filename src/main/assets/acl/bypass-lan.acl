@@ -7,6 +7,8 @@
 
 # myself 2017-12-11
 ^.*ca\.bxwx3\.org$
+^.*hzht666\.com$
+# end
 
 (^|\.)appget\.cn$
 (^|\.)appuu\.cn$
