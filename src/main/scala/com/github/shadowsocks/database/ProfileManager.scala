@@ -318,8 +318,9 @@ class ProfileManager(dbHelper: DBHelper) {
       url_group = "FreeSSR github"
     }
     
-    createProfile(profile0)
+    
     createProfile(profile1)
     createProfile(profile2)
+    createProfile(profile0)
   }
 }
