@@ -288,34 +288,34 @@ class ProfileManager(dbHelper: DBHelper) {
 
   def createDefault(): Profile = {
     val profile0 = new Profile {
-      name = "US 1 - Free"
+      name = "US 1"
       host = "162.218.211.158"
       remotePort = 80
       password = "freess"
       protocol = "origin"
       obfs = "plain"
       method = "rc4-md5"
-      url_group = "FreeSS-github"
+      url_group = "FreeSSR github"
     }
     val profile1 = new Profile {
-      name = "US 2 - Free"
+      name = "US 2"
       host = "104.140.14.17"
       remotePort = 53
       password = "freess"
       protocol = "origin"
       obfs = "plain"
       method = "rc4-md5"
-      url_group = "FreeSS-github"
+      url_group = "FreeSSR github"
     }
     val profile2 = new Profile {
-      name = "US 2 ipv6 - Free"
+      name = "US 2[ipv6]"
       host = "2607:ff28:a005::26a0:35d9"
-      remotePort = 80
+      remotePort = 53
       password = "freess"
       protocol = "origin"
       obfs = "plain"
       method = "rc4-md5"
-      url_group = "FreeSS-github"
+      url_group = "FreeSSR github"
     }
     
     createProfile(profile0)
