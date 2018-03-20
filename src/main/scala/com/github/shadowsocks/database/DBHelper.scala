@@ -138,7 +138,7 @@ class DBHelper(val context: Context)
         }
 
         if (oldVersion < 20) {
-          profileDao.executeRawNoArgs("ALTER TABLE `profile` ADD COLUMN china_dns VARCHAR DEFAULT '114.114.114.114:53,223.5.5.5:53';")
+          profileDao.executeRawNoArgs("ALTER TABLE `profile` ADD COLUMN china_dns VARCHAR DEFAULT '114.114.115.115:53,202.141.162.123:53';")
         }
 
         if (oldVersion < 21) {
