@@ -1,3 +1,11 @@
+```bash
+# centos 7 x64
+cd /root/shadowsocksr-android
+git submodule update --init
+./build.sh
+sbt clean android:package-release
+```
+
 ## ShadowsocksR for Android
 
 A [shadowsocksR](https://github.com/breakwa11/shadowsocks-rss/) client for Android, written in Scala.
